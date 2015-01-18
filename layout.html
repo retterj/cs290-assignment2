@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"> <!--Link CSS style sheet-->
+</head>	
+<body>
+	<table>
+		<caption>Here is the caption for my table</caption>
+        <thead>       <!--Use this style for the bold headers-->
+            <tr>
+            	<th>  <!--Top left element leave blank-->
+            	</th>
+                <th>
+                    Col 1
+                </th>
+                <th>
+                    Col 2
+                </th>
+                <th>
+                    Col 3
+                </th>
+                <th>
+                    Col 4
+                </th>
+                <th>
+                    Col 5
+                </th>
+            </tr>
+        </thead>
+        
+        <tbody>
+			<tr>  
+				<td><em>Row 1</em></td>  <!--Italicize first td in each tr-->
+				<td>A</td>
+				<td>B</td>
+				<td>C</td>
+				<td>D</td>
+				<td>E</td>
+			</tr>
+			<tr>
+				<td><em>Row 2</em></td>
+				<td>F</td>
+				<td>G</td>
+				<td>H</td>
+				<td>I</td>
+				<td>J</td>
+			</tr>
+			<tr>
+				<td><em>Row 3</em></td>
+				<td>K</td>
+				<td>L</td>
+				<td>M</td>
+				<td>N</td>
+				<td>O</td>
+			</tr>
+			<tr>
+				<td><em>Row 4</em></td>
+				<td>P</td>
+				<td>Q</td>
+				<td>R</td>
+				<td>S</td>
+				<td>T</td>
+			</tr>
+			<tr>
+				<td><em>Row 5</em></td>
+				<td>U</td>
+				<td>V</td>
+				<td>W</td>
+				<td>X</td>
+				<td>Y</td>
+			</tr>
+		</tbody>
+		<tfoot>      <!--Use foot to set it apart from tr for CSS selectors-->
+			<tr>
+				<td colspan="2">footer 2 col</td>  <!--OK to use in html, re:dicussion board-->
+				<td colspan="4">footer 4 col</td>
+			</tr>	
+		</tfoot>	
+	</table>
+	
+	<dl>                       <!--description list formatting-->
+		<dt>Term 1</dt>        <!--Apply highlighting in CSS file-->
+		<dd>Term 1's definition</dt>
+		<dt>Term 2</dt>
+		<dd>Term 2's definition</dt>
+		<dt>Term 3</dt>
+		<dd>Term 3's definition</dt>
+	</dl>
+	
+	<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+		<p>Some GET data</p>    <!--Get version; same code for both-->
+		<p>Text here: <input type="text" name="text_input"></p>
+		<p>Number here: <input type="number" name="numerical_input"></p>
+		<p>Password here: <input type="password" name="password_input"></p> <!--****-->
+		<p>Select between: </p>
+			<input type="radio" name="candy" value="Snickers">Snickers  <!--Must add value text on end-->			
+			<br>
+			<input type="radio" name="candy" value="Skittles">Skittles
+			<br>
+			<input type="radio" name="candy" value="Mentos">Mentos
+			<br>
+		<input type="submit" value="Submit">	
+	</form>
+	
+	<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+		<p>Some POST data</p>   <!--Post version; same code for both-->
+		<p>Text here: <input type="text" name="text_input"></p>
+		<p>Number here: <input type="number" name="numerical_input"></p>
+		<p>Password here: <input type="password" name="password_input"></p> 
+		<p>Select between: </p>
+			<input type="radio" name="candy" value="Snickers">Snickers			
+			<br>
+			<input type="radio" name="candy" value="Skittles">Skittles
+			<br>
+			<input type="radio" name="candy" value="Mentos">Mentos
+			<br>
+		<input type="submit" value="Submit">	
+	</form>
+	
+	<div class="outer-container">           <!--Set up two classes with div-->
+		<div class="inner-container">       <!--Formatting in CSS file-->
+			<p>Here is some content</p>
+		</div>
+	</div>
+	
+	<img src="flowers.jpg" width="100px" height="125px"> <!--Link to image, resized-->
+	<p>Here is my first paragraph of text. Lorem ipsum dolor sit amet, consectetur 
+	adipiscing elit. Curabitur purus est, finibus at eleifend id, ultrices vitae erat. 
+	Aenean tempor metus sit amet porta venenatis. </p>
+	<p>Here is my second paragraph of text. Maecenas lacinia, mi eu laoreet pharetra, 
+	massa metus finibus est, et varius turpis urna ac eros. Nunc rutrum porttitor nulla, 
+	suscipit eleifend nunc tempus eget. </p>
+	
+</body>
+</html>

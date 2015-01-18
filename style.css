@@ -1,0 +1,43 @@
+table tbody tr:nth-child(odd){   /*Select only odd table rows*/
+   background-color:lightgreen;
+}
+
+table tbody tr:nth-child(even){  /*Select only even table rows*/
+   background-color:lightblue;
+}
+
+table tbody tr td:nth-child(2){  /*Select only second element of each table row*/
+	color:red;
+}
+
+table tbody tr td:nth-child(4){  /*Select only fourth element of each table rows*/
+	color:blue;
+}
+
+table, th,td{                 /*Put border around table elements and whole table*/
+	border:1px solid black;
+}
+
+dt:hover + dd {       /*Apply rule to next sibling (dd) of a hovered dt. 
+					  NOTE: Received help from student on discussion board this code.*/
+background-color: purple;
+}
+
+.outer-container{          /*Apply following styles to this class (outer)*/
+	background-color:pink;
+	margin-top:20px;
+	padding:5px;
+	width:75%;
+}
+
+.inner-container{        /*Apply following styles to this class (inner)*/
+	background-color:lightblue;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:75%;
+}
+
+img{                  /*Allow text to wrap around image*/
+	float:left;
+}
